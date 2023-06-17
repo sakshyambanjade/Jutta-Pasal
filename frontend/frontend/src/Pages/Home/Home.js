@@ -1,14 +1,17 @@
 import React, { Component } from 'react'
-import {Header} from '../../Components/Navbar/Header'
 import {Navbar} from '../../Components/Navbar/Navbar'
 import {Footer} from '../../Components/Footer/Footer'
+import {Sidebar} from '../../Components/SideMenu/SideMenu'
+
 export default class Home extends Component {
   render() {
     return (
       <>
-      <Header/>
-     <Navbar/>
-     <Footer/>
+     <div className='Navigation Bar'><Navbar/></div>
+      <div className='Menu-Side-Bar'>  <Sidebar/></div>
+     <div className='Footer-Section'><Footer/></div>
+
+   
       </>
     )
   }
