@@ -2,7 +2,8 @@ import React from 'react'
 
 export function Cart() {
   return (
-    <div className="mx-auto grid w-full max-w-7xl items-center space-y-4 px-25 py-25 md:grid-cols-3 md:gap-9 md:space-y-9 lg:grid-cols-4 mt-[-1000px]">
+  
+    <div className="mx-auto grid w-full max-w-7xl items-center space-y-4 px-2 py-10 md:grid-cols-2 md:gap-6 md:space-y-0 lg:grid-cols-4 mt-[-1000px]">
       {Array.from({ length:  16 }).map((_, i) => (
         <div key={i} className="rounded-md border ">
           <img
