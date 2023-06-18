@@ -6,8 +6,8 @@ export function Sidebar() {
     <aside className="flex h-screen w-64 flex-col overflow-y-auto border-r bg-white px-5 py-8">
       <a href="#">
         <svg
-          width="40"
-          height="46"
+          width="20"
+          height="26"
           viewBox="0 0 50 56"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -18,8 +18,8 @@ export function Sidebar() {
           />
         </svg>
       </a>
-      <div className="mt-6 flex flex-1 flex-col justify-between">
-        <nav className="-mx-3 space-y-6 ">
+      <div className="mt-5 flex flex-1 flex-col justify-between">
+        <nav className="-mx-4 space-y-6 ">
           <div className="space-y-3 ">
             <label className="px-3 text-xs font-semibold uppercase text-gray-900">analytics</label>
             <a
