@@ -1,10 +1,11 @@
 import React from 'react'
 import { ArrowRight } from 'lucide-react'
-
+import {Navbar} from "../../Components/Navbar/Navbar"
 export function SignUp() {
   return (
     <section>
-      <div className="grid grid-cols-1 lg:grid-cols-2 mt-[130px]">
+      <Navbar/>
+      <div className="grid grid-cols-1 lg:grid-cols-2 mt-[100px]">
         <div className="relative flex items-end px-4 pb-10 pt-60 sm:px-6 sm:pb-16 md:justify-center lg:px-8 lg:pb-24">
           <div className="absolute inset-0">
             <img
